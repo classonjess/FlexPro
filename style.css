@@ -1,0 +1,132 @@
+*{
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+}
+
+body{
+    background-color: black;
+}
+
+.tea{
+    height: 50px;
+    size: 10px;
+    z-index: 1;
+}
+
+.h1{
+    text-decoration: underline;
+    display: inline-flex;
+    float:right;
+    clear:right;
+    column-gap: 10px;
+}
+
+.dark{
+    background-image: url("./images/img-mission-background.jpeg");
+    height: 700px;
+    background-size: 100% 100%;
+    background-origin: content-box;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    align-items: center;
+}
+
+.words{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    background-position: center;
+    margin: auto;
+    width:1200px;
+    height: 105px;
+}
+
+.sec{
+    text-align: center;
+    opacity: 0.9;
+    padding-top: 30px ;
+}
+
+.container{
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.bitch{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style-type: none;
+    text-align: center;
+    width:1000px;
+    align-content: center;
+    margin: auto;
+    align-content: center;
+    
+
+}
+
+.bitch li img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: center;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    justify-content: center;
+   
+}
+
+.last{
+    background-image: url("./images/img-locations-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
+    height: 500px;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.last h3{
+    padding-bottom: 0px;
+}
+
+
+.downtown{
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    line-height: 55px;
+    
+}
+
+.eastbay {
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    line-height: 55px;
+    margin-left: 40px;
+}
+
+.oakdale {
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    line-height: 55px;
+}
